@@ -10,6 +10,9 @@ A message queue is a form of asynchronous communication between services. It all
 - **Producer**: The part of the application responsible for adding jobs to the queue.
 - **Worker**: The part responsible for consuming (processing) those jobs from the queue.
 
+![messagequeueimage](https://github.com/user-attachments/assets/227d1e78-2ff8-46b1-a2bf-7c71465df5f4)
+
+
 ### 2. **BullMQ**
 BullMQ is a powerful library that allows us to work with Redis-based message queues in Node.js applications. It helps in creating, managing, and processing jobs.
 
