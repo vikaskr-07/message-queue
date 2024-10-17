@@ -38,3 +38,14 @@ Redis is used as the backend message broker. It efficiently stores the jobs and 
 1. Clone this repository:
    ```bash
    git clone https://github.com/vikaskr-07/message-queue.git
+2. Install the dependencies:
+   ```bash
+   npm install
+3. Start Redis server locally on port 6379 or connect to your Redis instance.
+4. Running the Producer
+   ```bash
+   node producer.js
+5. Running the Worker
+   ```bash
+   node worker.js
+
